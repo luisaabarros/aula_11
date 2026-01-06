@@ -14,7 +14,13 @@ import random
 # (o ':.2f' serve para limitar as casas decimais até 2)
 # o 'round' serve para arredondar os numeros
 
-n_decimal = random.uniform(1, 10)
-print(f'{n_decimal:.2f}')
-numero_decimal = round(n_decimal, 1)
-print(numero_decimal)
+# n_decimal = random.uniform(1, 10)
+# print(f'{n_decimal:.2f}')
+# numero_decimal = round(n_decimal, 1)
+# print(numero_decimal)
+
+# ----------------------------------------------
+
+#Gerar números aleatórios dentro de uma lista
+lst_numeros = [random.randint(1, 10) for num in range(5)]
+print(lst_numeros)
