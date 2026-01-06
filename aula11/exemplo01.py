@@ -1,5 +1,6 @@
 # Bibliotecas
 import random
+import os
 
 
 # random.randint --> numeros inteiros aleatórios
@@ -23,4 +24,5 @@ import random
 
 #Gerar números aleatórios dentro de uma lista
 lst_numeros = [random.randint(1, 10) for num in range(5)]
+os.system('cls')  # limpa a teça antes de printar a lista
 print(lst_numeros)
